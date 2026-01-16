@@ -26,7 +26,7 @@ const mywork_data = [
         w_no:3,
         w_name:"real_estate_img",
         w_img:real_estate_img,
-        link:""
+        link:"glittery-peony-707abf.netlify.app"
     },
      {
         w_no:4,
@@ -37,7 +37,8 @@ const mywork_data = [
     {
         w_no:5,
         w_name:"cbs",
-        w_img:cbs_img
+        w_img:cbs_img,
+        link:"https://sparkly-lolly-01c63a.netlify.app/"
     },
     {
         w_no:6,
@@ -54,7 +55,7 @@ const mywork_data = [
         w_no:1,
         w_name:"emp_img",
         w_img:ems_img,
-        link:""
+        link:"https://ems-frontend-xh95.onrender.com"
     },
    
 ]
