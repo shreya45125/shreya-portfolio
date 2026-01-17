@@ -14,7 +14,7 @@ const mywork_data = [
         w_no:1,
         w_name:"pit",
         w_img:pit_img,
-        link:"Projectinfotech.in"
+        link:"https://Projectinfotech.in"
     },
     {
         w_no:2,
@@ -26,7 +26,7 @@ const mywork_data = [
         w_no:3,
         w_name:"real_estate_img",
         w_img:real_estate_img,
-        link:"glittery-peony-707abf.netlify.app"
+        link:"https://glittery-peony-707abf.netlify.app"
     },
      {
         w_no:4,

@@ -1,86 +1,87 @@
-.mywork{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 0 20px;
+  max-width: 1300px;
+  margin: 80px auto;
 }
-.mywork-title{
-    position: relative;
+
+/* ---------- TITLE ---------- */
+.mywork-title {
+  position: relative;
+  text-align: center;
 }
-.mywork-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+
+.mywork-title h1 {
+  font-size: 80px;
+  font-weight: 600;
 }
-.mywork-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+
+.mywork-title img {
+  position: absolute;
+  bottom: -10px;
+  right: -20px;
+  width: 180px;
+  z-index: -1;
 }
-.mywork-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+
+/* ---------- GRID ---------- */
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
 }
-.mywork-container img{
-    box-sizing: border-box;
-    width: 419px;
-    height: 280px;
-    transition: 0.3s;
-    cursor: pointer;
+
+/* ---------- IMAGE CARD ---------- */
+.mywork-container a {
+  overflow: hidden;
+  border-radius: 14px;
 }
-.mywork-container img:hover{
-    transform: scale(1.10);
-    border: 4px solid #ff00ff;
-    border-radius: 10px;
-    transition: 0.3s;
+
+.mywork-container img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: 0.35s ease;
+  cursor: pointer;
 }
-.mywork-showmore{
-    display: flex;
-    gap: 15px;
-    border-radius: 50px;
-    border: 2px solid white;
-    padding: 30px 60px;
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 80px;
-    transition: 0.6s;
-    cursor: pointer;
+
+.mywork-container img:hover {
+  transform: scale(1.08);
+  border: 3px solid #ff00ff;
 }
-.mywork-showmore:hover{
-    gap: 30px;
-    transition: 0.6s;
+
+/* ---------- SHOW MORE ---------- */
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 26px 55px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  margin-bottom: 80px;
+  cursor: pointer;
+  transition: 0.4s ease;
 }
-@media(max-width:768px){
-    .mywork{
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
-    }
-    .mywork-title h1{
-       padding: 0;
-       font-size: 50px;
-       font-weight: 600;
-    }
-    .mywork-title img{
-        width: 130px;
-        margin-right: -20px;
-    }
-    .mywork-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
-    .mywork-container img{
-        width: 100%;
-        height: 100%;
-    }
-    .mywork-showmore{
-        padding: 20px 40px;
-        font-size: 18px;
-        margin: 50px auto;
-        cursor: pointer;
-    }
+
+.mywork-showmore:hover {
+  gap: 28px;
 }
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+  .mywork-title h1 {
+    font-size: 60px;
+  }
+
+  .mywork-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===============*

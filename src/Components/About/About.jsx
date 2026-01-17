@@ -16,9 +16,11 @@ const About = () => {
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p> "I’m a creative Frontend Developer who blends design and code to craft stunning, responsive, and
- user-friendly web experiences.</p><p> With expertise in React, JavaScript, HTML, and CSS, I turn ideas into
- interactive interfaces that not only look good but also feel amazing to use.</p>
+                <p> A creative, detail-oriented Software Developer with expertise in Java, Spring Boot, Hibernate and
+front-end technologies such as HTML5, CSS3, JavaScript Angular and React.js. Good knowledge
+in the development of scalable, high-performance web applications, including the creation of highend user interfaces that are integrated with high-end back-end architectures. Experience in
+working with RESTful APIs, microservices, and databases such as SQL and MySQL for a seamless
+user experience.</p>
             </div>
             <div className="about-skills" >
                 <div className="about-skill">
